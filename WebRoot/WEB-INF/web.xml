@@ -55,6 +55,22 @@
   	<servlet-name>ServletDemo5</servlet-name>
   	<servlet-class>com.example.demo.ServletDemo5</servlet-class>
   </servlet> 
+  <servlet>
+  	<servlet-name>ResponseDemo1</servlet-name>
+  	<servlet-class>com.example.demo.ResponseDemo1</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>ResponseDemo2</servlet-name>
+  	<servlet-class>com.example.demo.ResponseDemo2</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>ResponseDemo3</servlet-name>
+  	<servlet-class>com.example.demo.ResponseDemo3</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>DrawImage</servlet-name>
+  	<servlet-class>com.example.demo.DrawImage</servlet-class>
+  </servlet> 
   
   <servlet-mapping>
   	<servlet-name>ServletDemo01</servlet-name>
@@ -87,6 +103,22 @@
   <servlet-mapping>
   	<servlet-name>ServletDemo5</servlet-name>
   	<url-pattern>/ServletDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ResponseDemo1</servlet-name>
+  	<url-pattern>/ResponseDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ResponseDemo2</servlet-name>
+  	<url-pattern>/ResponseDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ResponseDemo3</servlet-name>
+  	<url-pattern>/ResponseDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DrawImage</servlet-name>
+  	<url-pattern>/DrawImage</url-pattern>
   </servlet-mapping>
   
   <welcome-file-list>
