@@ -71,6 +71,42 @@
   	<servlet-name>DrawImage</servlet-name>
   	<servlet-class>com.example.demo.DrawImage</servlet-class>
   </servlet> 
+  <servlet>
+  	<servlet-name>CheckServlet</servlet-name>
+  	<servlet-class>com.example.demo.CheckServlet</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>RequestDemo1</servlet-name>
+  	<servlet-class>com.example.demo.RequestDemo1</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>RequestDemo2</servlet-name>
+  	<servlet-class>com.request.demo.RequestDemo2</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>RequestDemo3</servlet-name>
+  	<servlet-class>com.request.demo.RequestDemo3</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>CookieDemo1</servlet-name>
+  	<servlet-class>com.cookie.demo.CookieDemo1</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>SessionDemo1</servlet-name>
+  	<servlet-class>com.session.demo.SessionDemo1</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>IndexServlet</servlet-name>
+  	<servlet-class>com.session.demo.IndexServlet</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>BuyServlet</servlet-name>
+  	<servlet-class>com.session.demo.BuyServlet</servlet-class>
+  </servlet> 
+  <servlet>
+  	<servlet-name>ListCartServlet</servlet-name>
+  	<servlet-class>com.session.demo.ListCartServlet</servlet-class>
+  </servlet> 
   
   <servlet-mapping>
   	<servlet-name>ServletDemo01</servlet-name>
@@ -120,6 +156,43 @@
   	<servlet-name>DrawImage</servlet-name>
   	<url-pattern>/DrawImage</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckServlet</servlet-name>
+  	<url-pattern>/CheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestDemo1</servlet-name>
+  	<url-pattern>/RequestDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestDemo2</servlet-name>
+  	<url-pattern>/RequestDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestDemo3</servlet-name>
+  	<url-pattern>/RequestDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CookieDemo1</servlet-name>
+  	<url-pattern>/CookieDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SessionDemo1</servlet-name>
+  	<url-pattern>/SessionDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IndexServlet</servlet-name>
+  	<url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuyServlet</servlet-name>
+  	<url-pattern>/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListCartServlet</servlet-name>
+  	<url-pattern>/ListCartServlet</url-pattern>
+  </servlet-mapping>
+
   
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

@@ -28,7 +28,7 @@ public class DrawImage extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		super.doPost(req, resp);
+		doPost(req, resp);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class DrawImage extends HttpServlet {
         //5.在图片上画干扰线
         drawRandomLine(g);
         //6.写在图片上随机数
-        //String random = drawRandomNum((Graphics2D) g,"ch");//生成中文验证码图片
+//        String random = drawRandomNum((Graphics2D) g,"ch");//生成中文验证码图片
         //String random = drawRandomNum((Graphics2D) g,"nl");//生成数字和字母组合的验证码图片
         //String random = drawRandomNum((Graphics2D) g,"n");//生成纯数字的验证码图片
         //String random = drawRandomNum((Graphics2D) g,"l");//生成纯字母的验证码图片
