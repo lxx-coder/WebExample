@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*" errorPage="error.jsp" pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -32,5 +32,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             <br/>
             <input type="submit" value="提交">
         </form>
+<%
+    int sum=0;//声明变量
+
+    /*编写语句*/
+    for (int i=1;i<=100;i++){
+        sum+=i;
+    }
+    out.println("<h1>Sum="+sum+"</h1>");
+    //这行代码肯定会出错，已运行就会抛出异常
+    int x = 1/0;
+%> 
   </body>
 </html>
